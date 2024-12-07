@@ -1,0 +1,70 @@
+.workCardContainer {
+  margin-bottom: 36px;
+  display: flex;
+}
+
+.workCardDateText {
+  display: block;
+  width: 150px;
+  white-space: nowrap;
+  word-break: keep-all;
+  color: #86868b;
+  line-height: 22px;
+  font-weight: 300;
+  padding-top: 10px;
+}
+
+.workCardHeader {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 14px;
+  line-height: 20px;
+}
+
+.workCardHeader span {
+  margin-left: 5px;
+}
+
+.workCardProjectContainer {
+  margin-bottom: 30px;
+}
+
+.workCardProject {
+  font-size: 14px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.workCardAchievementsList {
+  padding: 0;
+  margin: 0;
+}
+
+.workCardAchievementsList > li {
+  list-style: none;
+  font-size: 18px;
+  margin: 0;
+  margin-bottom: 12px;
+  font-weight: 300;
+}
+
+.workCardImpact {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .workCardContainer {
+    flex-direction: column;
+  }
+
+  .workCardDateText {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .workCardDateText > br {
+    display: contents;
+  }
+}

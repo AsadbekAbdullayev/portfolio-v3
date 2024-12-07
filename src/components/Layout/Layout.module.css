@@ -1,0 +1,66 @@
+.layout {
+  width: 45%;
+  margin: auto;
+  padding: 120px;
+}
+
+.backgroundBubblesContainer {
+  margin-left: 0px;
+}
+
+.layoutContent {
+  display: flex;
+  height: calc(100vh - 120px); /* Subtract top + bottom padding */
+}
+
+.layoutContent > main {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.layoutContent > main > div {
+  padding-bottom: 120px;
+}
+
+.layoutContent > main::-webkit-scrollbar {
+  display: none;
+}
+
+
+.sidebarContainer {
+  width: 200px;
+}
+
+
+/* Medium size devices (small desktop, big tablets) */
+@media screen and (max-width: 1280px) {
+  .layout {
+    width: 65%;
+    padding: 60px;
+  }
+}
+
+/* Small size devices (tablets, big phones in landscape mode) */
+@media screen and (max-width: 1024px) {
+  .layout {
+    width: 100%;
+    padding: 60px;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .layout {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .layoutContent {
+    flex-direction: column;
+    height: calc(100vh - 40px); /* Subtract top + bottom padding */
+  }
+
+  .sidebarContainer {
+    width: 100%;
+  }
+}

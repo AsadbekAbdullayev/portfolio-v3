@@ -1,0 +1,42 @@
+.container ul {
+  width: 200px;
+  padding: 0;
+  margin-bottom: 100px;
+}
+
+.container ul li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+
+.activeNavigation {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1; 
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  background: rgba(238, 238, 238, 0.2) !important;
+  border: 1px solid #F3F3F3 !important;
+  border-radius: 6px;
+  transform: translate(-50%, -50%); /*Add this*/
+}
+
+.container button a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .container ul {
+    width: fit-content;
+    display: inline-flex;
+    margin-bottom: 0px;
+  }
+}
