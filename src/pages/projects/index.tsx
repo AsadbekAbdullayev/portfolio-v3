@@ -137,7 +137,7 @@ function ProjectsPage() {
         </div>
       </div>
       <BouncyBox delay={500}>
-        <a target="_blank" href="https://t.me/Asadbek_2778">
+        <a target="_blank" href="https://t.me/Asadbek_2778" rel="noreferrer">
           <Button icon={<ArrowRight />}>Get in touch</Button>
         </a>
       </BouncyBox>

@@ -15,7 +15,12 @@ type Props = {
 
 export function ProjectCard({ project }: Props) {
   return (
-    <a className={styles.container} href={project.link} target="_blank">
+    <a
+      className={styles.container}
+      href={project.link}
+      target="_blank"
+      rel="noreferrer"
+    >
       <div className={styles.thumbnailContainer}>
         <Image src={project.imageSrc} alt={project.title} />
       </div>
