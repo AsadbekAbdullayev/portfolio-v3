@@ -14,6 +14,7 @@ import { BouncyBox } from "@/components/BouncyBox";
 
 
 
+
 function ProjectsPage() {
   return (
     <div>
