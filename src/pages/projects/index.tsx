@@ -2,7 +2,6 @@ import { ArrowRight } from "react-feather";
 import styles from "@/styles/Projects.module.css";
 import { Button } from "@/components/Button";
 import { ProjectCard } from "@/components/ProjectCard";
-
 import Cargo from "../../../public/images/cargo.jpeg";
 import Kutubxona from "../../../public/images/kutubxona.png";
 import Itskills from "../../../public/images/talent.jpeg";
