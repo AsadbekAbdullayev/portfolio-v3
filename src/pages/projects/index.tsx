@@ -13,6 +13,7 @@ import Game from "../../../public/images/game.jpeg";
 import { BouncyBox } from "@/components/BouncyBox";
 
 
+
 function ProjectsPage() {
   return (
     <div>
