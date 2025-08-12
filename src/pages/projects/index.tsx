@@ -1,5 +1,4 @@
 import { ArrowRight } from "react-feather";
-
 import styles from "@/styles/Projects.module.css";
 import { Button } from "@/components/Button";
 import { ProjectCard } from "@/components/ProjectCard";
