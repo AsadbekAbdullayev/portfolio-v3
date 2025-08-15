@@ -11,6 +11,7 @@ import { useSpring } from "react-spring";
 
 
 
+
 function buildSeamlessLinearGradient(colors: string[]) {
   if (colors.length < 2)
     throw new Error(
