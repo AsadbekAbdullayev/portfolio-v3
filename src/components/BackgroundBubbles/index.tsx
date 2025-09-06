@@ -4,7 +4,7 @@ import styles from "./BackgroundBubbles.module.css";
 const bubbles = [
   {
     colors: [
-      "#CACACA",
+      "#BC4E9C",
       "#F80759",
       "#7F7FD5",
       "#86A8E7",
