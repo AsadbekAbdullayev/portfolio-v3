@@ -9,23 +9,23 @@ import { BouncyBox } from "@/components/BouncyBox";
 
 function WorkPage() {
   return (
-    <div>
+    <main>
       <BouncyBox>
         <h1>Work Experience</h1>
       </BouncyBox>
-      <div className={styles.worksListContainer}>
+      <section className={styles.worksListContainer}>
         {works.map((work, i) => (
-          <BouncyBox key={i} delay={50 * i}>
-            <WorkCard key={work.companyName} work={work} />
+          <BouncyBox key={work.companyName} delay={Math.min(50 * i, 500)}>
+            <WorkCard work={work} />
           </BouncyBox>
         ))}
-      </div>
+      </section>
       <BouncyBox delay={50 * works.length}>
         <Link href="/projects">
           <Button icon={<ArrowRight />}>Learn about side projects</Button>
         </Link>
       </BouncyBox>
-    </div>
+    </main>
   );
 }
 
